@@ -1,0 +1,373 @@
+
+/*media queries for 340 px device to 600px devices*/
+
+@media(min-width:320px) and (max-width:600px){
+    .container {
+        margin: 0 5px;
+    }
+    .section-padding{
+        padding: 20px 0;
+    }
+    #popular-course {
+        padding: 20px 0;
+    }
+    header .logo-nav-flex {
+        padding: 0 20px;
+        padding-top: 25px;
+    }
+    header {
+        line-height: 40px;
+    }
+    header ul li {
+        padding: 0 25px;
+    }
+/*****=================******/
+.responsive-menu-icon{
+    display: block;
+    color: #2a2c2c;
+    font-size: 20px;
+}
+.single-navbar ul{
+    display: block;
+}
+.single-menu{
+    display: none;
+}
+.res-icon-block{
+    display: block;
+}
+/*****=================******/
+#banner-section{
+    min-height: 400px;
+   
+}
+    #banner-section .main-content {
+        width: 100%;
+        padding: 20px;
+    }
+    #banner-section .main-content input[type="text"] {
+        width: 90%;
+        height: 50px;
+        border: none;
+        outline: none;
+    }
+    #banner-top-content .main-content {
+        position: relative;
+        margin: 0 auto;
+    }
+    #banner-section .main-content a {
+        padding: 15px 25px;
+        position: relative;
+        left: 0px;
+        top: 25px;
+    }
+    
+    #banner-section .main-content h1 {   
+        font-size: 27px;
+    }
+    #banner-section .main-content p {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+    #banner-top-content .main-content {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-bottom: 40px;
+    }
+    #banner-top-content .single-div1,
+    #banner-top-content .single-div2,
+    #banner-top-content .single-div3{
+        padding: 50px 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+/*****=================******/
+    #course-platform .flex-wrapper {
+        display: block;
+        padding: 0;
+    }
+    #course-platform .left-content {
+        display: block;
+    }
+    #course-platform .right-content {
+        width: 100%;
+        padding:20px;
+    }
+    #course-platform .right-content h2 {
+        font-size: 27px;
+        padding: 0;
+    }
+    #course-platform .right-content a {
+        padding: 13px 35px;
+        position: relative;
+        top: 10px;
+    }
+    #popular-course .event-wrap {
+        width: 100%;
+        padding: 0 20px;
+    }
+    #popular-course .event-wrap h1 {
+        padding: 15px 0;
+        font-size: 27px;
+    }
+    #popular-course .event-wrap p {
+        padding: 30px 0;
+    }
+    #popular-course .single-div {
+        padding: 0 20px;
+    }
+    #popular-course .flex-wrapper {
+        display: block;
+    }
+    #popular-course .bottom-icon-div {
+        padding: 20px 0;
+    }
+    #popular-course .text-div p {
+        padding: 5px 0;
+    }
+    #popular-course .single-div img {
+        width: 100%;
+    }
+
+    /*****=================******/
+    #unique-feature .top-text {
+        padding: 0 20px;
+    }
+    #unique-feature .top-text h1 {
+        font-size: 27px;
+        margin: 0;
+        line-height: 130%;
+    }
+    #unique-feature .main-content-wrapper {
+        display: block;
+    }
+    #unique-feature .main-content-wrapper .single-div h3 {
+        font-size: 20px;
+    }
+    /*****=================******/
+    #testimonial .single_testimonial .testimonial_head h4 {
+        padding-top: 20px;
+    }
+    #testimonial .single_testimonial .testimonial_content p {
+        font-size: 16px;
+    }
+/*****=================******/
+    #registration-section .content-flex-wrap {
+        display: block;
+        padding: 0 20px;
+    }
+    #registration-section .left-content {
+        padding: 0;
+    }
+    #registration-section .left-content h1 {
+        font-size: 27px;
+    }
+    #registration-section .form-content .input-area {
+        width: 100%;
+        padding: 26px 0;
+        display: block;
+    }
+    #registration-section .form-content input {
+        margin: 5px 0;
+        border-bottom: 1px solid #ddd;
+        outline: 0;
+        color: #000;
+    }
+    #registration-section .form-content ::placeholder{
+        color: #000;
+    }
+    #registration-section .form-content a {
+        padding: 15px 80px;
+        position: relative;
+        top: 30px;
+    }
+/*****=================******/
+    #instructors-section {
+        padding: 20px;
+    }
+    #instructors-section .event-wrap {
+        width: 100%;
+    }
+    #instructors-section .event-wrap p {
+        padding-bottom: 20px;
+    }
+    #instructors-section .flex-wrapper {
+        display: block;
+    }
+    #instructors-section .event-wrap h1 {
+        padding: 20px 0;
+        font-size: 27px;
+    }
+    #instructors-section .single-div {
+        margin-bottom: 120px;
+    
+    }
+    #instructors-section .last-div {
+        margin-bottom: 0;
+    
+    }
+/*****=================******/
+    #event-section {
+        padding: 20px;
+    }
+    #event-section .event-wrap {
+        width: 100%;
+    }
+    #event-section .event-wrap h1 {
+        padding: 20px 0;
+        font-size: 27px;
+    }
+    #event-section .flex-wrapper {
+        display: block;
+    }
+    #event-section .single-div {
+        display: block;
+    }
+    #event-section .single-div img {
+        width: 100%;
+    }
+    #event-section .text-div {
+        padding: 0;
+    }
+/*****=================******/
+    #contact-area.section-padding {
+        padding: 20px 0;
+    }
+    #contact-area iframe {
+        padding: 0 20px;
+    }
+    #contact-area .contact-col-wrap {
+        display: block;
+        padding: 20px;
+    }
+    #contact-area .contact-col-wrap input, textarea {
+        width: 90%;
+        margin: 10px auto;
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+    #contact-area .contact-col-wrap ::placeholder{
+        color: #000;
+    }
+    #contact-area .contact-col-wrap a {
+        position: relative;
+        right: 0;
+        top: 10px;
+        margin: 10px 0;
+        text-align: center;
+        padding: 15px 30px;
+        width: 200px;
+    }
+    #footer-section .form-wrap a {
+        position: absolute;
+    }
+/*****=================******/
+    #footer-section .footer-flex {
+        display: block;
+        padding: 20px;
+    }
+    #footer-section .footer-bottom {
+        display: block;
+        padding: 0 20px;
+    }
+    #footer-section .footer-bottom p {
+        padding: 20px 0;
+        text-align: center;
+    }
+    #footer-section .form-wrap input {
+        border: none;
+        outline: none;
+		width: 90%;
+    }
+
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media(max-width: 768px) {
+	 .container {
+        margin: 0 50px;
+    }
+  .responsive-menu-icon{
+    display: block;
+    color: #2a2c2c;
+    font-size: 20px;
+	}
+	.single-navbar ul{
+		display: block;
+	}
+	.single-menu{
+		display: none;
+	}
+	.res-icon-block{
+		display: block;
+	}
+	/*****=================******/
+	#popular-course .event-wrap {
+        width: 100%;
+        padding: 0 20px;
+    }
+    #popular-course .event-wrap h1 {
+        padding: 15px 0;
+        font-size: 35px;
+    }
+    #popular-course .event-wrap p {
+        padding: 30px 0;
+    }
+   #popular-course .single-div {
+        padding: 0 20px;
+    }
+    #popular-course .flex-wrapper {
+        display: block;
+    }
+    #popular-course .bottom-icon-div {
+        padding: 20px 0;
+    }
+    #popular-course .text-div p {
+        padding: 5px 0;
+    } 
+    #popular-course .single-div img {
+        width: 100%;
+    }
+	/*****=================******/
+    #registration-section .content-flex-wrap {
+        display: block;
+        padding: 0 20px;
+    }
+    #registration-section .left-content {
+        padding: 0;
+    }
+    #registration-section .left-content h1 {
+        font-size: 35px;
+    }
+    #registration-section .form-content .input-area {
+        width: 100%;
+        padding: 26px;
+        display: block;
+    }
+    #registration-section .form-content input {
+        margin: 5px 0;
+		width: 100%;
+        border-bottom: 1px solid #ddd;
+        outline: 0;
+        color: #000;
+    }
+    #registration-section .form-content ::placeholder{
+        color: #000;
+    }
+    #registration-section .form-content a {
+        padding: 15px 80px;
+        position: relative;
+        top: 30px;
+    }
+/*****=================******/
+}
+
+
+
+
+
+
+
+
+
+
